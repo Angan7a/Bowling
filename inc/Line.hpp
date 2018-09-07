@@ -5,7 +5,7 @@
 class Line
 {
     int numberOfGames_;
-    std::vector<Game> lines_;
+    std::vector<Game> games_;
 public:
     Line();
     void addGame(const std::string & packedData);
